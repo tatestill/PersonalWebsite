@@ -8,7 +8,7 @@ export function TechnicalWritingPage (){
         <Row className = "App-homepage">
             <Row>
                 <h1 style ={{paddingTop:"15px"}}>Instructions</h1>
-                <div style={{fontSize: "15px"}}>Instructions about a skateboard truck fix made for a class assignment</div>
+                <div style={{fontSize: "15px"}}>For a class assignment we wrote instructions for a task that we wanted to help others perform. I chose a longboard maintenance fix that is often neglected.</div>
             <Col style={{display: "flex", justifyContent: "center", width: "100%", paddingTop: "15px", paddingBottom: "50px"}}>
             <Document file = {instructions}>
                 <Page pageNumber={1} renderTextLayer={false} style={{width: "100%"}}/>
