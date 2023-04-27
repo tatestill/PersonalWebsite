@@ -4,10 +4,10 @@ export function HomePage (){
         <Row className = "App-homepage">
             <Col>
             <Row>
-                <div>About Tate Still</div>
+                <div style = {{marginTop: "50px", marginBottom: "25px"}}>About Tate Still</div>
             </Row>
             <Row style={{justifyContent:"center", borderRadius: "5px"}}>
-                <div style={{fontSize: "16px", backgroundColor: "white", color:"black", maxWidth: "50%", borderRadius: "10px", textAlign: "left", textIndent: "20px"}}>
+                <div style={{fontSize: "16px", backgroundColor: "#b8c5e6", color:"black", maxWidth: "50%", borderRadius: "10px", textAlign: "left", textIndent: "20px"}}>
                     <div style={{padding: "15px"}}><p>Hello, my name is Tate Still and I'm a Computer Science major in my final year at UCF. During my time at UCF, I've taken various coursees to expand my knowledge and abilities in Computer Science.
                     In classes such as Processes for Object Oriented Software Design and Senior Design, I practiced working in agile workflows and developing as part of a team. During Senior Design I worked as a part of a team for RealityFlow, a virtual reality scripting tool.
                     My team was tasked with creating the website and mobile application for Reality Flow, along with the Social UI within the VR app. The website can be viewed at <a href="https://beta.realityflow.io/">beta.realityflow.io</a>.
@@ -18,10 +18,10 @@ export function HomePage (){
                     </div></div>
             </Row>
             <Row>
-                <div>Education</div>
+                <div style = {{marginTop: "25px", marginBottom: "25px"}}>Education</div>
             </Row>
             <Row style={{justifyContent:"center", borderRadius: "5px"}}>
-                <div style={{fontSize: "16px", backgroundColor: "white", color:"black", maxWidth: "50%", borderRadius: "10px"}}>
+                <div style={{fontSize: "16px", backgroundColor: "#b8c5e6", color:"black", maxWidth: "50%", borderRadius: "10px"}}>
                     <Row style={{fontSize: "24px", fontWeight: "bold"}}>
                     <Col>University of Central Florida</Col>
                     <Col>August 2019 to May 2023</Col>

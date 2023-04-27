@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 import { HomePage } from './Pages/HomePage';
 import NavigationBar from './Components/Navigation';
 import { Footer } from './Components/Footer';
+import { ResumePage } from './Pages/ResumePage';
+import { TechnicalWritingPage } from './Pages/TechnicalWritingPage';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <NavigationBar/>
               <Routes>
                     <Route path="/" element={<HomePage/>}></Route>    
+                    <Route path="/resume" element={<ResumePage/>}></Route> 
+                    <Route path="/writing" element={<TechnicalWritingPage/>}></Route> 
               </Routes>
          <Footer/>
         </Col>
